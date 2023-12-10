@@ -81,4 +81,9 @@ main p {
     width: 20em;
     text-align: center;
 }
-
+.row-articles {
+    font-family: Roboto Slab;
+    display: inline-block;
+    width: 20em;
+    text-align: center;
+}
