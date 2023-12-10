@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 .newspaper-container {
     width: 700px;
@@ -35,9 +34,20 @@ li {
    
 }
 nav{
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray
+    border-top: 1px solid lightgray;   
 }
+
+.navbar{
+    position: sticky; /* Set the navbar to be fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Make it take the full width */
+    padding: 10px 0; /* Padding for content */
+    z-index: 1000; /* Set z-index to make sure it appears above other elements */
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;v
+  }
+  
 nav li a{
     list-style: none;
   padding: 1px 3px;
@@ -45,6 +55,7 @@ nav li a{
   text-decoration: none; 
   font-weight: bold; 
   border-color: #302c2c;
+  
 }
 
 main img{
